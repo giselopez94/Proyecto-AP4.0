@@ -4,6 +4,7 @@
 .menu-title { 
     color: rgb(34, 113, 187); 
    }
+
 @media (min-width: 48em) {
     .logo{
       float: left; }
@@ -16,7 +17,9 @@
         .bg-gradient{
             background-image: var(--bs-gradient)
         }
-       
+       #personal{
+        display: none;
+       }
         .h1{
             color:white
     }
